@@ -1,0 +1,165 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/bundle.js",
+	"assets": {
+		"bundle": {
+			"type": "script",
+			"path": "script/bundle.js",
+			"global": true
+		},
+		"hover_plugin": {
+			"type": "script",
+			"path": "script/HoverPlugin.js",
+			"global": true
+		},
+		"sprite": {
+			"type": "image",
+			"width": 2188,
+			"height": 1343,
+			"path": "image/sprite.png"
+		},
+		"sample_hue": {
+			"type": "audio",
+			"path": "audio/sample_hue",
+			"systemId": "music",
+			"duration": 33491,
+			"global": true
+		},
+		"se_ready_start": {
+			"type": "audio",
+			"path": "audio/se_ready_start",
+			"systemId": "sound",
+			"duration": 1714
+		},
+		"se_timeup": {
+			"type": "audio",
+			"path": "audio/se_timeup",
+			"systemId": "sound",
+			"duration": 1080
+		},
+		"se_garbage": {
+			"type": "audio",
+			"path": "audio/se_garbage",
+			"systemId": "sound",
+			"duration": 742
+		},
+		"se_garbage_can": {
+			"type": "audio",
+			"path": "audio/se_garbage_can",
+			"systemId": "sound",
+			"duration": 495
+		},
+		"se_garbage_tissue": {
+			"type": "audio",
+			"path": "audio/se_garbage_tissue",
+			"systemId": "sound",
+			"duration": 2153
+		},
+		"se_in_dustbox": {
+			"type": "audio",
+			"path": "audio/se_in_dustbox",
+			"systemId": "sound",
+			"duration": 910
+		},
+		"se_spider": {
+			"type": "audio",
+			"path": "audio/se_spider",
+			"systemId": "sound",
+			"duration": 1909
+		},
+		"se_spider_web": {
+			"type": "audio",
+			"path": "audio/se_spider_web",
+			"systemId": "sound",
+			"duration": 1227
+		},
+		"se_start": {
+			"type": "audio",
+			"path": "audio/se_start",
+			"systemId": "sound",
+			"duration": 1526
+		},
+		"se_throwing": {
+			"type": "audio",
+			"path": "audio/se_throwing",
+			"systemId": "sound",
+			"duration": 1500
+		},
+		"se_pii": {
+			"type": "audio",
+			"path": "audio/se_pii",
+			"systemId": "sound",
+			"duration": 1639
+		},
+		"se_pon": {
+			"type": "audio",
+			"path": "audio/se_pon",
+			"systemId": "sound",
+			"duration": 350
+		},
+		"logo": {
+			"type": "image",
+			"width": 1018,
+			"height": 620,
+			"path": "image/logo.png"
+		},
+		"se_fanfare": {
+			"type": "audio",
+			"path": "audio/se_fanfare",
+			"systemId": "sound",
+			"duration": 2304
+		},
+		"se_bad": {
+			"type": "audio",
+			"path": "audio/se_bad",
+			"systemId": "sound",
+			"duration": 1006
+		},
+		"sprite_atsumaru": {
+			"type": "image",
+			"width": 980,
+			"height": 152,
+			"path": "image/sprite_atsumaru.png"
+		},
+		"sprite_score": {
+			"type": "image",
+			"width": 1280,
+			"height": 320,
+			"path": "image/sprite_score.png"
+		},
+		"se_roll_count": {
+			"type": "audio",
+			"path": "audio/se_roll_count",
+			"systemId": "sound",
+			"duration": 3995
+		},
+		"se_roll_count_finish": {
+			"type": "audio",
+			"path": "audio/se_roll_count_finish",
+			"systemId": "sound",
+			"duration": 665
+		}
+	},
+	"operationPlugins": [
+		{
+			"code": 5,
+			"script": "./script/HoverPlugin.js",
+			"option": {
+				"cursor": "pointer"
+			}
+		}
+	],
+	"defaultLoadingScene": "none",
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"single",
+				"ranking"
+			]
+		}
+	},
+	"globalScripts": []
+}

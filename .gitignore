@@ -1,0 +1,4 @@
+node_modules
+script/bundle.js
+*.zip
+npm-debug.log
