@@ -12,7 +12,7 @@
     "build:watch": "webpack --config webpack.config.dev.js -w",
     "webpack:dev": "webpack --config webpack.config.dev.js",
     "zip": "cross-var akashic-cli-export-zip --output ./$npm_package_version.zip --hash-filename --strip",
-    "atsumaru": "cross-var akashic export html --output akashic-trash-atsumaru-$npm_package_version.zip --atsumaru --inject css.html"
+    "atsumaru": "cross-var akashic-cli-export-html --output akashic-trash-atsumaru-$npm_package_version.zip --atsumaru --inject css.html"
   },
   "author": "DWANGO Co., Ltd.",
   "license": "MIT",
