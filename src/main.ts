@@ -57,7 +57,7 @@ function createGameScene(parameter: GameParameter): GameScene {
 			"se_fanfare",
 			"se_bad"
 		],
-		time: parameter.gameTimeLimit,
+		time: parameter.totalTimeLimit - 32,
 		seed: parameter.randomSeed != null ? parameter.randomSeed : null,
 		difficulty: parameter.difficulty != null ? parameter.difficulty : 1
 	});
