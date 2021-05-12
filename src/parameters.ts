@@ -1,6 +1,6 @@
 export interface GameParameter {
 	difficulty: number;
-	gameTimeLimit: number;
+	totalTimeLimit: number;
 	launchType?: string;
 	muteAudio?: boolean;
 	nicowari?: boolean;

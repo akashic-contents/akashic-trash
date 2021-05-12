@@ -31,7 +31,7 @@ npm start
         /**
          * ゲームの制限時間。
          */
-        "gameTimeLimit": 60,
+        "totalTimeLimit": 92,
         /**
          * ゲームの難易度。
          * 0～3 : クモが出現しません
