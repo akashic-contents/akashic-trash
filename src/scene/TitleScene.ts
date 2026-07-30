@@ -20,7 +20,7 @@ export class TitleScene extends SequentialScene {
 
 		this.parameter = {
 			difficulty: 4,
-			gameTimeLimit: 60
+			totalTimeLimit: 92
 		};
 		this.message.add(this.onMessage, this);
 		this.loaded.addOnce(this.onLoaded, this);
@@ -61,7 +61,7 @@ export class TitleScene extends SequentialScene {
 		if (data.type === "start") {
 			this.parameter = {
 				difficulty: data.parameters.difficulty != null ? data.parameters.difficulty : this.parameter.difficulty,
-				gameTimeLimit: data.parameters.gameTimeLimit != null ? data.parameters.gameTimeLimit : this.parameter.gameTimeLimit
+				totalTimeLimit: data.parameters.totalTimeLimit != null ? data.parameters.totalTimeLimit : this.parameter.totalTimeLimit
 			};
 		}
 	}

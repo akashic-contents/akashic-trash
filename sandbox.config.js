@@ -8,7 +8,7 @@ module.exports = {
 			{
 				"type": "start",
 				"parameters": {
-					"gameTimeLimit": 60
+					"totalTimeLimit": 92
 				}
 			}
 		]],
@@ -19,7 +19,7 @@ module.exports = {
 			{
 				"type": "start",
 				"parameters": {
-					"gameTimeLimit": 60,
+					"totalTimeLimit": 92,
 					"difficulty": 1
 				}
 			}
@@ -31,7 +31,7 @@ module.exports = {
 			{
 				"type": "start",
 				"parameters": {
-					"gameTimeLimit": 60,
+					"totalTimeLimit": 92,
 					"difficulty": 4
 				}
 			}
@@ -43,7 +43,7 @@ module.exports = {
 			{
 				"type": "start",
 				"parameters": {
-					"gameTimeLimit": 60,
+					"totalTimeLimit": 92,
 					"difficulty": 8
 				}
 			}
@@ -55,7 +55,7 @@ module.exports = {
 			{
 				"type": "start",
 				"parameters": {
-					"gameTimeLimit": 60,
+					"totalTimeLimit": 92,
 					"randomSeed": 10
 				}
 			}
